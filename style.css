@@ -23,17 +23,20 @@ body {
   width: 750px;
 }
 #header {
-  /* background-color: red; */
-  height: 10px;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #menu {
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  /* background-color: purple; */
 }
 
 #menu ul {
@@ -57,6 +60,7 @@ body {
   height: 340px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .hero-content {
